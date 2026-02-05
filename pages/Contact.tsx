@@ -56,8 +56,8 @@ const ServiceMap = () => {
       .addTo(map)
       .bindPopup(`
         <div class="p-2 font-sans">
-          <p class="text-[10px] font-bold uppercase tracking-widest text-emerald-900 mb-1">The Studio</p>
-          <p class="text-[9px] text-stone-500">Sheppard Ave East, Toronto</p>
+          <p class="text-[10px] font-bold uppercase tracking-widest text-emerald-900 mb-1">The Garden Architect</p>
+          <p class="text-[9px] text-stone-500">Richmond Hill, Ontario</p>
         </div>
       `);
 
@@ -151,7 +151,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 mb-20">
               <div className="border-t border-stone-200 pt-8">
                 <h4 className="font-bold text-stone-400 uppercase text-[10px] tracking-[0.4em] mb-4">Direct Dial</h4>
-                <p className="text-lg text-emerald-950 font-bold tracking-widest">+1 (416) 555-0198</p>
+                <p className="text-lg text-emerald-950 font-bold tracking-widest">+1 (416) 882-7342</p>
               </div>
               
               <div className="border-t border-stone-200 pt-8">
@@ -160,8 +160,8 @@ const Contact = () => {
               </div>
 
               <div className="border-t border-stone-200 pt-8 sm:col-span-2">
-                <h4 className="font-bold text-stone-400 uppercase text-[10px] tracking-[0.4em] mb-4">The Studio Address</h4>
-                <p className="text-lg text-stone-800 font-medium serif-text italic">1200 Sheppard Avenue East, Suite 400<br/>Toronto, Ontario M2K 2S5</p>
+                <h4 className="font-bold text-stone-400 uppercase text-[10px] tracking-[0.4em] mb-4">The Garden Architect</h4>
+                <p className="text-lg text-stone-800 font-medium serif-text italic">101 Bloomington Road, Richmond Hill<br/>Ontario</p>
               </div>
             </div>
 
@@ -174,7 +174,7 @@ const Contact = () => {
               <div className="text-center py-24 animate-fade-in">
                 <div className="w-20 h-20 border border-emerald-900 flex items-center justify-center mx-auto mb-8 text-emerald-900 text-sm tracking-[0.3em] font-bold uppercase">SENT</div>
                 <h3 className="text-3xl font-bold text-stone-950 mb-6 brand-font">Message Logged</h3>
-                <p className="text-stone-500 serif-text italic leading-relaxed mb-4">The Studio has received your correspondence. A principal will respond within one business cycle.</p>
+                <p className="text-stone-500 serif-text italic leading-relaxed mb-4">The Garden Architect has received your correspondence. A principal will respond within one business cycle.</p>
                 <div className="flex items-center justify-center gap-2 bg-emerald-50 py-2 rounded-sm border border-emerald-100">
                   <div className="w-1.5 h-1.5 bg-emerald-600 rounded-full"></div>
                   <p className="text-[8px] font-bold text-emerald-800 uppercase tracking-widest">Notification Dispatch Confirmed</p>
